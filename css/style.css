@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-container {
+    width: 50%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#choices button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+#choices button:hover {
+    background: #0056b3;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}
+
+#score, #timer, #question-number {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#timer {
+    color: red;
+}
+
+#history-container {
+    margin-top: 20px;
+    display: none;
+}
+
+#history {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+#history li {
+    padding: 5px;
+    font-size: 16px;
+}
+
+.correct-answer {
+    color: green;
+}
+
+.wrong-answer {
+    color: red;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#prev-btn {
+    background: orange;
+    color: white;
+}
+
+#next-btn {
+    background: green;
+    color: white;
+}
+
+#toggle-history-btn {
+    background: #ff9800;
+    color: white;
+}
+.history-container{
+    display: none;
+    
+}

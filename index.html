@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Developpement Web</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h1>Quiz Développement Web</h1>
+      <p id="question-number">Question 1 / 30</p>
+      <p id="timer">⏳ Temps restant : 20s</p>
+      <p id="question">Chargement...</p>
+      <div id="choices"></div>
+      <p id="message"></p>
+      <p id="score">Score : 0</p>
+
+      <button id="prev-btn">⬅ Retour</button>
+      <button id="next-btn" disabled>➡ Suivant</button>
+      <button id="toggle-history-btn">Voir l'historique</button>
+
+      <div id="history-container">
+        <h2>Historique des réponses</h2>
+        <ul id="history"></ul>
+      </div>
+    </div>
+
+    <audio id="correct-sound" src="/1-efek-sound-3-220030.mp3"></audio>
+    <audio id="wrong-sound" src="/buzzer-or-wrong-answer-20582.mp3"></audio>
+    <audio id="click-sound" src="click.mp3"></audio>
+
+    <script src="/script/script.js"></script>
+  </body>
+</html>
